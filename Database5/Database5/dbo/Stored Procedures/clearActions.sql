@@ -1,4 +1,4 @@
 ﻿CREATE PROCEDURE [dbo].[clearActions]
 AS
-	truncate table dbo.users
+	truncate table dbo.actions
 RETURN 0
