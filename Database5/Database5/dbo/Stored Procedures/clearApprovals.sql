@@ -1,4 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[clearApprovals]
 AS
-	truncate table dbo.loggedInfo
+	--Can you see this comment?
+	truncate table dbo.approvals
 RETURN 0
